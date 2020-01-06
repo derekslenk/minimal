@@ -13,7 +13,7 @@ main {
     margin: auto;
     padding: 25px;
     flex: 1 0 auto;
-    max-width: 750px;
+    max-width: 1024px;
 }
 
 img {
@@ -22,8 +22,13 @@ img {
 
 /* Homepage */
 
+.bg {
+    width: 1028px;
+}
+
 .intro {
-    transform: translateY(22vh);
+    transform: translateY(5vh);
+    width: auto;
 }
 
 .intro > h1 {
@@ -53,7 +58,7 @@ img {
 /* Colored links */
 
 a:link, a:visited {
-    color: var(--accent);
+    color: var(--linkColor);
 }
 
 a.icon:hover {
@@ -95,6 +100,16 @@ a:hover {
 .navbar-icon {
     font-size: 125%;
     display: inline-block !important;
+}
+
+/* Navbar links */
+
+.navbar-default .navbar-nav > li > a {
+	color: var(--linkColor) !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: var(--accent) !important;
 }
 
 /* Colored borders at top/bottom of page */
