@@ -1,7 +1,8 @@
 # Minimal
 
-Personal blog theme powered by [Hugo](https://gohugo.io).
+Personal blog theme powered by [Hugo](https://gohugo.io). 
 A live demo is available [here](https://themes.gohugo.io/theme/minimal/).
+This is a fork of https://github.com/calintat/minimal
 
 ## Installation
 
